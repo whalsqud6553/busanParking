@@ -1,0 +1,51 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color:inherit;
+}
+.flex {
+	display: flex;
+}
+.frame {
+	width: 90%;
+	min-width: 1000px;
+	margin: auto;
+}
+.wrap {
+	min-height: calc(100vh - 300px);
+	width: 90%;
+	min-width: 1000px;
+	margin: auto;
+}
+.header_top {
+	justify-content: space-between;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+}
+.header_right {
+	padding-top: 40px;
+}
+.header_right {
+	height: fit-content;
+}
+.header_right > a:first-child {
+	padding: 5px;
+}
+.header_right > a:first-child:hover {
+	background-color: yellow;
+	font-weight: bold;
+}
+.header_right > a:nth-child(2) {
+	padding: 5px;
+}
+.header_right > a:nth-child(2):hover {
+	background-color: yellow;
+	font-weight: bold;
+}

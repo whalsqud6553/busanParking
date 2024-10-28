@@ -1,0 +1,40 @@
+.login_header {
+	text-align: center;
+}
+.login_form {
+	text-align: center;
+	margin-top: 100px;
+}
+.login_form > form > p:nth-child(1) > input {
+	width: 400px;
+	padding: 20px;
+	font-size: 1.2em;
+	border-radius: 10px;
+}
+.login_form > form > p:nth-child(2) > input {
+	margin: 15px 0;
+	width: 400px;
+	padding: 20px;
+	font-size: 1.2em;
+	border-radius: 10px;
+}
+.login_form > form > p:nth-child(3) > input {
+	width: 400px;
+	padding: 20px;
+	font-size: 1.2em;
+	border: none;
+	background-color: #f8f8f8;
+	border-radius: 10px;
+}
+.login_form > form > p:nth-child(3) > input:hover {
+	cursor: pointer;
+	background-color: yellow;
+	font-weight: bold;
+}
+.login_footer {
+	text-align: center;
+	margin: 40px 0;
+}
+.login_footer > a:hover {
+	text-decoration: underline;
+}

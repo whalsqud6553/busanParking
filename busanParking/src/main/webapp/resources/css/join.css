@@ -1,0 +1,70 @@
+.join_header {
+	text-align: center;
+}
+.join_form > form {
+	margin-top: 100px;
+	margin-left: 37%;
+}
+.join_form > form > p:nth-child(1) > input {
+	width: 400px;
+	padding: 20px;
+	font-size: 1.2em;
+	border-radius: 10px;
+}
+.join_form > form > p:nth-child(3) > input {
+	margin: 15px 0;
+	width: 400px;
+	padding: 20px;
+	font-size: 1.2em;
+	border-radius: 10px;
+}
+.join_form > form > p:nth-child(4) > input {
+	width: 400px;
+	padding: 20px;
+	font-size: 1.2em;
+	border-radius: 10px;
+}
+.join_form > form > p:nth-child(6) > input {
+	margin: 15px 0;
+	width: 400px;
+	padding: 20px;
+	font-size: 1.2em;
+	border-radius: 10px;
+}
+.join_form > form > p:last-child > input {
+	width: 440px;
+	padding: 20px;
+	font-size: 1.2em;
+	border: none;
+	background-color: #f8f8f8;
+	border-radius: 10px;
+}
+.join_footer {
+	text-align: center;
+	margin: 40px 0;
+}
+.join_footer > a:hover {
+	text-decoration: underline;
+}
+#idCheckBtn {
+	padding: 20px;
+	border: none;
+	background-color: #f8f8f8;
+	border-radius: 10px;
+}
+#idCheckBtn:hover {
+	cursor: pointer;
+	background-color: yellow;
+	font-weight: bold;
+}
+#nickCheckBtn {
+	padding: 20px;
+	border: none;
+	background-color: #f8f8f8;
+	border-radius: 10px;
+}
+#nickCheckBtn:hover {
+	cursor: pointer;
+	background-color: yellow;
+	font-weight: bold;
+}

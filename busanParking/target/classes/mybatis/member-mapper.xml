@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC 
+		"//mybatis.org//DTD Mapper 3.0//EN" 
+		"https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+		
+<mapper namespace="com.sideProject.repository.BusanParkingMemberDAO">
+	<insert id="join" parameterType="member">
+		insert into busanParking_member
+			(busanParking_Member_Id, busanParking_Member_Password,
+			busanParking_Member_Salt, busanParking_Member_Nickname)
+		values 
+			(#{busanParking_Member_Id}, #{busanParking_Member_Password}, 
+			#{busanParking_Member_Salt}, #{busanParking_Member_Nickname})
+	</insert>
+	<select id="selectById" resultType="member" parameterType="string">
+		select
+			*
+				from busanParking_member
+			where busanParking_Member_Id = #{busanParking_Member_Id}
+	</select>
+	<select id="selectByNickName" resultType="member" parameterType="string">
+		select
+			*
+				from busanParking_member
+			where busanParking_Member_NickName = #{member_nick}
+	</select>
+</mapper>
